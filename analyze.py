@@ -1,3 +1,5 @@
+"""סיכום הישרדות מ-Titanic.csv: מספר נוסעים, כמה שרדו, ופירוט לפי מין."""
+
 import csv
 
 with open("Titanic.csv", newline="", encoding="utf-8") as f:
