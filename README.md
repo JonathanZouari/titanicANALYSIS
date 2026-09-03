@@ -2,6 +2,15 @@
 
 ניתוח נתונים של נוסעי הטיטאניק — בדיקת הגורמים שהשפיעו על סיכויי ההישרדות.
 
+## תוכן עניינים
+
+- [נתונים](#נתונים)
+- [דרישות](#דרישות)
+- [הרצה](#הרצה)
+- [מבנה הפרויקט](#מבנה-הפרויקט)
+- [שאלות מחקר](#שאלות-מחקר)
+- [מקור](#מקור)
+
 ## נתונים
 
 `Titanic.csv` — 891 נוסעים, 12 עמודות:
@@ -24,20 +33,24 @@
 ## דרישות
 
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 ## הרצה
 
 ```bash
-jupyter notebook
+jupyter notebook analysis.ipynb
 ```
+
+המחברת בודקת הישרדות לפי מין, מחלקת כרטיס, ונסיעה עם משפחה.
 
 ## מבנה הפרויקט
 
 ```
 titanicANALYSIS/
-├── Titanic.csv     # נתוני הגלם
+├── Titanic.csv         # נתוני הגלם
+├── analysis.ipynb      # ניתוח ראשוני
+├── requirements.txt    # תלויות פייתון
 └── README.md
 ```
 
